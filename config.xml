@@ -123,5 +123,7 @@
 
     <splash src="res/android/screen-xxxhdpi-portrait.png" />
 
-    
+        <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+                <application android:usesCleartextTraffic="true" />
+        </edit-config>
 </widget>
