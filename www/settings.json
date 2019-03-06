@@ -1,5 +1,5 @@
 {
-  "url": "http://192.168.43.218:8080",
+  "url": "https://rural-poc-data-cap-sandbox.mxapps.io",
   "enableOffline": true,
   "requirePin": false,
   "updateAsync": false,
