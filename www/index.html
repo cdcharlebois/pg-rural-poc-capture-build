@@ -64,5 +64,10 @@
         </div>
 
         <script src="cordova.js"></script>
+        <script type="text/javascript">
+        document.addEventListener("backbutton", function() {
+            event.preventDefault();
+        }, false);
+    </script>
     <script type="text/javascript" src="../www/js/bundle.js"></script></body>
 </html>
